@@ -8,6 +8,7 @@
 - On Wayland and X11, implement `is_maximized` method on `Window`.
 - On macOS, fix issue where `ReceivedCharacter` was not being emitted during some key repeat events.
 - On Wayland, load cursor icons `hand2` and `hand1` for `CursorIcon::Hand`.
+- On X11, retry interruped system calls, preventing a crash.
 
 # 0.25.0 (2021-05-15)
 
